@@ -1,0 +1,19 @@
+{
+  "name": "my-nodejs-application",
+  "version": "1.0.0",
+  "description": "test",
+  "author": "Hadrien Cools",
+  "dependencies": {
+    "express": "4.*",
+    "jade": "1.9.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "bin": {
+    "my-nodejs-application": "express-router.js"
+  },
+  "devDependencies": {},
+  "license": "ISC"
+}
